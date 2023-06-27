@@ -16,7 +16,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${Code})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
-              <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
                   DJ FLAVA WEB APPLICATION
                 </span>
@@ -38,7 +38,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${Code})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
-              <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
                   JUANDRE PORFOLIO WEB APPLICATION
                 </span>
@@ -60,7 +60,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${Code})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
-              <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
                   TINDOG WEB APPLICATION
                 </span>
@@ -82,7 +82,7 @@ const Work = () => {
               style={{ backgroundImage: `url(${Code})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
             >
-              <div className='opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col'>
+              <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
                   NGOS WEB APPLICATION
                 </span>
@@ -104,4 +104,6 @@ const Work = () => {
     </div>
   );
 };
+
 export default Work;
+
