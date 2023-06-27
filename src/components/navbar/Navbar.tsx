@@ -1,42 +1,56 @@
-import { useState } from 'react';
-import { FaBars, FaTimes, FaLinkedin, FaGithub } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaBars, FaTimes, FaLinkedin } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const handleClick = () => {
+    setNav(!nav);
+  };
 
   const handleLinkClick = () => {
     setNav(false);
   };
 
-  const navLinks = [
-    { id: 'home', name: 'Home' },
-    { id: 'about', name: 'About' },
-    { id: 'skills', name: 'Skills' },
-    { id: 'work', name: 'Work' },
-    { id: 'contact', name: 'Contact' },
-  ];
+  const [navLinks, setNavLinks] = useState([
+    { id: 'home', name: 'Home', className: '' },
+    { id: 'about', name: 'About', className: '' },
+    { id: 'skills', name: 'Skills', className: '' },
+    { id: 'work', name: 'Work', className: '' },
+    { id: 'contact', name: 'Contact', className: '' },
+  ]);
+
+  const handleSetActive = (to:string) => {
+    setNavLinks((prevNavLinks) =>
+      prevNavLinks.map((link) => ({
+        ...link,
+        className: link.id === to ? 'active' : '',
+      }))
+    );
+  };
 
   return (
-    <nav className='fixed w-full h-[20px] pt-2 pr-2 pl-2 flex justify-between items-center px-2 bg-[#0a192f] text-gray-300'>
+    <nav className='fixed w-full h-[50px] pt-2 pb-2 flex justify-between items-center px-3 bg-[#0a192f] text-gray-300'>
       <div>
-        <h1 className='font-thin text-2xl italic font-serif'>JS</h1>
+        <h1 className='font-thin text-2xl pb-2 pt-2 italic font-serif'>JS</h1>
       </div>
       <ul className='hidden md:flex gap-x-8 items-center'>
-        {navLinks.map(({ id, name }) => (
+        {navLinks.map(({ id, name, className }) => (
           <li key={id}>
-            <Link
+            <ScrollLink
               activeClass='active'
               to={id}
               spy={true}
               smooth={true}
               offset={-70}
               onClick={handleLinkClick}
+              className={className}
+              onSetActive={handleSetActive}
+              duration={500} // Add this line for smooth scrolling duration
             >
               {name}
-            </Link>
+            </ScrollLink>
           </li>
         ))}
       </ul>
@@ -47,42 +61,25 @@ const Navbar = () => {
       </div>
       {nav && (
         <ul className='absolute top-2 left-0 right-0 bg-[#0a192f] flex flex-col items-center'>
-          {navLinks.map(({ id, name }) => (
-            <li key={id} className='py-6 text-4xl'>
-              <Link
+          {navLinks.map(({ id, name, className }) => (
+            <li key={id} className={className}>
+              <ScrollLink
                 activeClass='active'
                 to={id}
                 spy={true}
                 smooth={true}
                 offset={-70}
                 onClick={handleLinkClick}
+                className={className}
+                onSetActive={handleSetActive}
+                duration={500} // Add this line for smooth scrolling duration
               >
                 {name}
-              </Link>
+              </ScrollLink>
             </li>
           ))}
         </ul>
       )}
-      <div className='lg:flex fixed flex-col top-[35%] left-0'>
-        <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='/'
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </nav>
   );
 };
