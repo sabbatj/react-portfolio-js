@@ -1,4 +1,4 @@
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin, FaFileDownload } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -27,12 +27,22 @@ const Footer = () => {
           </div>
           <div className="bg-gray-500 rounded-md p-2 aspect-w-1 aspect-h-1">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/juandre-sabbat-14b755237/" // Replace with your LinkedIn profile link
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 rounded-md p-2 flex items-center justify-center"
             >
               <FaLinkedin className="w-6 h-6 text-white" />
+            </a>
+          </div>
+          <div className="bg-gray-500 rounded-md p-2 aspect-w-1 aspect-h-1">
+            <a
+              href="https://docdro.id/iEtLIGR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-yellow-500 rounded-md p-2 flex items-center justify-center"
+            >
+              <FaFileDownload className="w-6 h-6 text-white" />
             </a>
           </div>
         </div>
@@ -54,4 +64,5 @@ const Footer = () => {
     </footer>
   );
 };
+
 export default Footer;
