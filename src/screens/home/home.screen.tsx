@@ -13,8 +13,8 @@ const Home = () => {
   };
 
   const imageVariants = {
-    hidden: { opacity: 0, y:70},
-    visible: { opacity: 1, y:0, transition: { duration: 0.5, delay: 0.4 } },
+    hidden: { opacity: 0, y: 70 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.4 } },
   };
 
   return (
@@ -25,15 +25,15 @@ const Home = () => {
         initial="hidden"
         animate="visible"
       >
-        <div className="text-center md:text-left"> {/* Updated div to adjust text alignment */}
-          <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
+        <div className="text-center md:text-left pt-8"> {/* Added pt-8 for top padding */}
+          <motion.h2 className="text-4xl pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
             I'M A FULL STACK DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-2 px-2 max-w-md" variants={textVariants}>
             I have experience in mobile and web development. Equipped with a diverse range of programming languages, frameworks, and tools, I am adept at seamlessly bridging the gap between user experience and server functionality.
           </motion.p>
         </div>
-        <motion.div variants={imageVariants} className="mt-4 md:mt-0"> {/* Updated div with margin-top */}
+        <motion.div variants={imageVariants} className="mt-4 md:mt-0">
           <img
             src={me}
             alt="my profile"
@@ -46,4 +46,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
