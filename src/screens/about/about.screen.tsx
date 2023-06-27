@@ -10,11 +10,11 @@ const About = () => {
             <div></div>
           </div>
           <div className="max-w-[400px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold flex justify-center items-center h-full">
-              <p className="text-center text-lg sm:text-3xl">Hi. I'm Juandre Sabbat, nice to meet you.</p>
+            <div className="text-center sm:text-right md:text-center lg:text-right">
+              <p className="text-lg sm:text-3xl">Hi. I'm Juandre Sabbat, nice to meet you.</p>
             </div>
-            <div className="flex justify-center items-center h-full">
-              <p className="text-center sm:text-left text-base sm:text-3xl md:text-lg lg:text-xl"> {/* Updated text-base, sm:text-3xl, md:text-lg, and lg:text-xl classes */}
+            <div className="text-center sm:text-left md:text-center lg:text-left">
+              <p className="text-base sm:text-3xl md:text-lg lg:text-xl">
                 With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
               </p>
             </div>
@@ -26,5 +26,4 @@ const About = () => {
 };
 
 export default About;
-
 
