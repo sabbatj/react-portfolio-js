@@ -16,7 +16,7 @@ const About = () => {
                 Continuous Learning: I stay updated with industry trends and technologies for cutting-edge solutions.
                 Collaboration and Communication: I excel in collaborative environments, working well with cross-functional teams.
                 Results-Driven Approach: I'm committed to driving business growth and achieving tangible results.
-                Let's discuss how I can contribute to your company's success. Feel free to reach out for further discussions or to schedule an interview.
+                Let's discuss how I can contribute to your company's success. Feel free to reach out for further discussions or to schedule an interview
             </div>
           </div>
         </div>
