@@ -9,9 +9,8 @@ const About = () => {
             </div>
             <div className="text-center">
               <p className="text-lg sm:text-3xl">
-               Hi. I'm Juandre Sabbat, nice to meet you. With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
-              </p>
-            </div>
+               
+Greetings! I'm Juandre Sabbat, and it's a pleasure to connect with you. As a highly skilled full-stack developer, I possess the expertise to craft sophisticated solutions that not only enhance user experiences but also propel business expansion. With my extensive background in this field, I am proficient in the art of creating elegant designs and implementing them seamlessly. By leveraging my talents, I aim to contribute significantly to your organization's success.
           </div>
         </div>
       </div>
