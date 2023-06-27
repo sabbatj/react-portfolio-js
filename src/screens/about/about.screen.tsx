@@ -9,14 +9,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <p className="text-lg sm:text-3xl">
-               I'm Juandre Sabbat, a dedicated full-stack developer skilled in creating exceptional digital experiences. Here's what I offer:
-                Efficient End-to-End Development: I handle full-stack projects effectively, delivering cohesive solutions.
-                Problem-Solving Expertise: I analyze complex problems and implement innovative solutions.
-                User-Centric Mindset: I prioritize intuitive and engaging experiences that meet user needs.
-                Continuous Learning: I stay updated with industry trends and technologies for cutting-edge solutions.
-                Collaboration and Communication: I excel in collaborative environments, working well with cross-functional teams.
-                Results-Driven Approach: I'm committed to driving business growth and achieving tangible results.
-                Let's discuss how I can contribute to your company's success. Feel free to reach out for further discussions or to schedule an interview.
+               Hi. I'm Juandre Sabbat, nice to meet you. With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
               </p>
             </div>
           </div>
