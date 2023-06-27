@@ -40,7 +40,7 @@ const Work = () => {
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
-                  JUANDRE PORFOLIO WEB APPLICATION
+                  PORFOLIO WEB APPLICATION
                 </span>
                 <p className='text-center'>
                   A web application built with JAVASCRIPT, HTML, CSS.
