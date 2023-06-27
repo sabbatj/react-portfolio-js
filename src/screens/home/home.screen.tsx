@@ -13,7 +13,7 @@ const Home = () => {
   };
 
   const imageVariants = {
-    hidden: { opacity: 0 },
+    hidden: { opacity: 0 y:50},
     visible: { opacity: 1, transition: { duration: 0.5, delay: 0.4 } },
   };
 
