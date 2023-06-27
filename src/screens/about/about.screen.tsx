@@ -27,8 +27,7 @@ const About = () => {
             <div>
               <p>
                 {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps and Mobile apps.
+              With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
               </p>
             </div>
           </div>
