@@ -2,7 +2,7 @@ const Skills = () => {
   return (
     <div data-name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-          <div className=' w-full flex justify-center items-center flex-col mb-7'>
+          <div className=' w-full flex justify-center items-center flex-col mb-7 mt-12'>
               <p className='text-4xl font-bold inline border-b-4 border-cyan-500 text-center '>Skills</p>
               <p className='py-4 text-2xl'>I am passionate about continuously expanding my skill set and staying up-to-date with the latest technologies and trends. Here are some of the technologies I have experience with:</p>
           </div> 
