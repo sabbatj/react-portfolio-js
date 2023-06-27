@@ -26,7 +26,7 @@ const Home = () => {
         animate="visible"
       >
         <motion.div className="flex flex-col justify-center h-full" variants={textVariants}>
-          <h2 className="text-4xl pt-5 sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl pt-5 pb-5 sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h2>
           <motion.p className="text-gray-500 py-2 max-w-md" variants={textVariants}>
