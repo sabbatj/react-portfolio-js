@@ -11,6 +11,7 @@ const Work = () => {
           <p className='py-6 text-2xl'>Check out some of my most recent work</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+          <div className='hidden md:block' /> {/* Spacer element */}
           <div className='aspect-w-1 aspect-h-1'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
@@ -106,4 +107,5 @@ const Work = () => {
 };
 
 export default Work;
+
 
