@@ -23,7 +23,7 @@ Hi. I'm Juandre Sabbat, a highly skilled and dedicated software developer with a
 </div>
 <div>
 <p>
-With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth. I am proficient in a wide range of programming languages, frameworks, and technologies, including JavaScript, React, Node.js, and SQL, to name just a few.
+With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
 </p>
 </div>
 </div>
