@@ -26,14 +26,14 @@ const Home = () => {
         animate="visible"
       >
         <motion.div className="flex flex-col justify-center h-full" variants={textVariants}>
-          <h2 className="text-4xl pt-5 pb-5 sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl pt-5 pb-5 sm:text-7xl font-bold text-white text-center"> {/* Added text-center */}
             I'm a Full Stack Developer
           </h2>
           <motion.p className="text-gray-500 py-2 px-2 max-w-md" variants={textVariants}>
             I have experience in mobile and web development. Equipped with a diverse range of programming languages, frameworks, and tools, I am adept at seamlessly bridging the gap between user experience and server functionality.
           </motion.p>
         </motion.div>
-        <motion.div variants={imageVariants} className="mt-10"> {/* Added margin-top of 10 */}
+        <motion.div className="flex items-center justify-center mt-10 md:mt-0" variants={imageVariants}> {/* Updated div with flex and alignment */}
           <img
             src={me}
             alt="my profile"
