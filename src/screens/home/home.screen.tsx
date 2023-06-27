@@ -1,4 +1,4 @@
-import{motion}from "framer-motion";
+import { motion } from "framer-motion";
 import me from "../../assets/images/home/me.png";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
 
   const imageVariants = {
     hidden: { opacity: 0, y: 100 },
-    visible: { opacity: 1, y: 5, transition: { duration: 0.5, delay: 0.4 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.4 } },
   };
 
   return (
@@ -33,7 +33,7 @@ const Home = () => {
             I have experience in mobile and web development. Equipped with a diverse range of programming languages, frameworks, and tools, I am adept at seamlessly bridging the gap between user experience and server functionality.
           </motion.p>
         </motion.div>
-        <motion.div variants={imageVariants}>
+        <motion.div variants={imageVariants} className="mt-10"> {/* Added margin-top of 10 */}
           <img
             src={me}
             alt="my profile"
@@ -44,5 +44,5 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
 
+export default Home;
