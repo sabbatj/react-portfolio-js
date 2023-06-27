@@ -11,10 +11,10 @@ const About = () => {
           </div>
           <div className="max-w-[400px] w-full grid sm:grid-cols-2 gap-8 px-4">
             <div className="sm:text-right text-4xl font-bold flex justify-center items-center h-full">
-              <p className="text-center">Hi. I'm Juandre Sabbat, nice to meet you.</p>
+              <p className="text-center text-lg sm:text-2xl">Hi. I'm Juandre Sabbat, nice to meet you.</p> {/* Updated text-lg and sm:text-2xl classes */}
             </div>
             <div className="flex justify-center items-center h-full">
-              <p className="text-center sm:text-left"> {/* Added sm:text-left class */}
+              <p className="text-center sm:text-left text-base sm:text-lg"> {/* Updated text-base and sm:text-lg classes */}
                 With a strong background in full-stack development, I excel in designing and implementing elegant solutions that deliver optimal user experiences and drive business growth.
               </p>
             </div>
@@ -26,3 +26,4 @@ const About = () => {
 };
 
 export default About;
+
