@@ -3,7 +3,7 @@ import { FaInstagram, FaGithub, FaLinkedin, FaFileDownload } from "react-icons/f
 const Footer = () => {
   return (
     <footer className="bg-[#0a192f] text-white">
-      <div className="container pt-12 mx-auto py-4 flex flex-col md:flex-row justify-between items-center">
+      <div className="container pt-20 mx-auto py-4 flex flex-col md:flex-row justify-between items-center">
         <div className="flex space-x-4 justify-start md:pl-4"> 
           <div className="bg-gray-500 rounded-md p-2 aspect-w-1 aspect-h-1">
             <a
@@ -64,5 +64,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;
