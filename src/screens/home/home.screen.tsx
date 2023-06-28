@@ -14,7 +14,7 @@ const Home = () => {
 
   const imageVariants = {
     hidden: { opacity: 0, marginTop: 0 }, // Updated marginTop property
-    visible: { opacity: 1, marginTop: 20, transition: { duration: 0.5, delay: 0.4 } }, // Adjusted marginTop value
+    visible: { opacity: 1, marginTop: 40, transition: { duration: 0.5, delay: 0.4 } }, // Adjusted marginTop value
   };
 
   return (
@@ -33,7 +33,7 @@ const Home = () => {
             I have experience in mobile and web development. Equipped with a diverse range of programming languages, frameworks, and tools, I am adept at seamlessly bridging the gap between user experience and server functionality.
           </motion.p>
         </div>
-        <motion.div variants={imageVariants} className="mt-4 md:mt-0">
+        <motion.div variants={imageVariants} className="mt-8 md:mt-0"> {/* Adjusted margin-top value */}
           <img
             src={me}
             alt="my profile"
