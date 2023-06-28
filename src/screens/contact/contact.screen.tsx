@@ -46,8 +46,8 @@ const Contact = () => {
 
   return (
     <div className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-      <div className='flex flex-col max-w-[600px] w-full'>
-        <div className='pb-8 flex flex-col justify-center w-full h-full items-center'>
+      <div className=' pt-12 flex flex-col max-w-[600px] w-full'>
+        <div className='pb-8 pt-10 flex flex-col justify-center w-full h-full items-center'>
           <h1 className='text-4xl font-bold inline border-b-4 border-cyan-500 text-gray-300 pb-5 pt-5'>Contact</h1>
           <p className='text-gray-300 py-4'>Send me a message</p>
         </div>
@@ -89,7 +89,7 @@ const Contact = () => {
           {status === 'sending' && <p className='text-yellow-500'>Sending message...</p>}
           {status === 'success' && <p className='text-green-500'>Thank you! We will get back to you soon.</p>}
           {status === 'error' && <p className='text-red-500'>An error occurred. Please try again later.</p>}
-          <button type='submit' className='text-white border-2 hover:bg-cyan-500 hover:border-cyan-500 px-4 py-3 my-8 mx-auto flex items-center rounded-md'>
+          <button type='submit' className='text-white border-2 hover:bg-cyan-500 hover:border-cyan-500 px-4 py-3 my-8 mx-auto flex items-center rounded-md '>
             Let's Collaborate
           </button>
         </form>
@@ -99,3 +99,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
