@@ -1,5 +1,4 @@
-              import Code from '../../assets/images/work/code2.png';
-
+import Code from '../../assets/images/work/code2.png';
 const Work = () => {
   return (
     <div data-name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
