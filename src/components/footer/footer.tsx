@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <div className="bg-gray-500 rounded-md p-2 aspect-w-1 aspect-h-1">
             <a
-              href="https://docdro.id/iEtLIGR"
+              href="https://docdro.id/DWKjysK"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-yellow-500 rounded-md p-2 flex items-center justify-center"
