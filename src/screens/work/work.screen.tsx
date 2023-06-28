@@ -86,7 +86,7 @@ const Work = () => {
                   NGOS WEB APPLICATION
                 </span>
                 <p className='text-center'>
-                  A web application built with HTML, CSS.
+                  A web application built with HTML, CSS, JAVASCRIPT.
                 </p>
                 <div className='pt-8 text-center'>
                   <a href='https://ngos.co.za/' target='_blank' rel='noopener noreferrer'>
