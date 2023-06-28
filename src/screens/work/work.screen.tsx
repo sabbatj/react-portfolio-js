@@ -16,7 +16,6 @@ const Work = () => {
               style={{ backgroundImage: `url(${Code})` }}
               className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
             >
-
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
                   DJ FLAVA WEB APPLICATION
@@ -37,7 +36,7 @@ const Work = () => {
           <div className='aspect-w-1 aspect-h-1'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -59,7 +58,7 @@ const Work = () => {
           <div className='aspect-w-1 aspect-h-1'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -81,7 +80,7 @@ const Work = () => {
           <div className='aspect-w-1 aspect-h-1'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
