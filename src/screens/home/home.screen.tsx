@@ -8,8 +8,8 @@ const Home = () => {
   };
 
   const textVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.5, delay: 0.2 } },
+    hidden: { opacity: 0, marginTop: 0 },
+    visible: { opacity: 1,  marginTop: 50, transition: { duration: 0.5, delay: 0.2 } },
   };
 
   const imageVariants = {
