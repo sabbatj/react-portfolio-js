@@ -35,7 +35,7 @@ const Skills = () => {
                   <p className='my-4'>RUBY ON RAILS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <p className='my-4'>POSTGRE-SQLl</p>
+                  <p className='my-4'>POSTGRE-SQL</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <p className='my-4'>TYPESCRIPT</p>
