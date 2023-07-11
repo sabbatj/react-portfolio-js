@@ -43,7 +43,7 @@ const Work = () => {
                   PORTFOLIO WEB APPLICATION
                 </span>
                 <p className='text-center'>
-                  A web application built with JAVASCRIPT, HTML, CSS.
+                  A web application built with JAVASCRIPT, HTML, SCSS.
                 </p>
                 <div className='pt-8 text-center'>
                   <a href='https://juandresabbatportfolio.vercel.app/' target='_blank' rel='noopener noreferrer'>
