@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   const handleLinkClick = () => {
-    setNav(false);
+    setNav(true);
     scroll.scrollToTop();
   };
 
