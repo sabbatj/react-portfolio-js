@@ -11,6 +11,7 @@ const Navbar = () => {
 
   const handleLinkClick = () => {
     setNav(false);
+    scroll.scrollToTop();
   };
 
   const [navLinks, setNavLinks] = useState([
@@ -21,7 +22,7 @@ const Navbar = () => {
     { id: 'contact', name: 'Contact', className: '' },
   ]);
 
-  const handleSetActive = (to:string) => {
+  const handleSetActive = (to) => {
     setNavLinks((prevNavLinks) =>
       prevNavLinks.map((link) => ({
         ...link,
@@ -46,7 +47,6 @@ const Navbar = () => {
               offset={-70}
               onClick={handleLinkClick}
               className={className}
-              onSetActive={handleSetActive}
               duration={500} // Add this line for smooth scrolling duration
             >
               {name}
@@ -71,7 +71,6 @@ const Navbar = () => {
                 offset={-70}
                 onClick={handleLinkClick}
                 className={className}
-                onSetActive={handleSetActive}
                 duration={500} // Add this line for smooth scrolling duration
               >
                 {name}
@@ -83,4 +82,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;
