@@ -22,7 +22,7 @@ const Navbar = () => {
     { id: 'contact', name: 'Contact', className: '' },
   ]);
 
-  const handleSetActive = (to) => {
+  const handleSetActive = (to String) => {
     setNavLinks((prevNavLinks) =>
       prevNavLinks.map((link) => ({
         ...link,
