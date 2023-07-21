@@ -9,12 +9,8 @@ const About = () => {
             </div>
             <div className="text-center">
               <p className="text-lg sm:text-3xl">
-                I'm Juandre Sabbat, an experienced full-stack developer with a passion for crafting exceptional user experiences. My journey in the world of development has been filled with exciting challenges and countless opportunities to learn and excel.
-                With a solid background in creating innovative solutions and a keen eye for detail, I take pride in delivering top-notch results that not only meet but exceed expectations. I firmly believe that technology can be a powerful catalyst for success, and I am driven to harness its potential to achieve thriving outcomes.
-              </p>
-            </div>
-          </div>
-        </div>
+              Experienced full-stack developer passionate about crafting exceptional user experiences. Skilled in creating innovative solutions and delivering top-notch results that exceed expectations. Firm believer in technology's potential as a catalyst for success. Driven to achieve thriving outcomes.
+        </p>
       </div>
     </div>
   );
