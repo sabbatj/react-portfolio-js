@@ -26,7 +26,7 @@ const Home = () => {
         animate="visible"
       >
         <div className="text-center md:text-left">
-          <motion.h2 className="text-4xl pt-30 pb-10 sm:text-7xl font-bold text-white" variants={textVariants}>
+          <motion.h2 className="text-4xl pt-20 pb-6 sm:text-7xl font-bold text-white" variants={textVariants}>
             A FULL STACK DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-2 px-2 max-w-md" variants={textVariants}>
