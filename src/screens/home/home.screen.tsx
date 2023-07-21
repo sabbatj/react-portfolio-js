@@ -33,7 +33,7 @@ const Home = () => {
             Versatile full-stack developer, combining technical prowess and creativity to deliver impactful solutions and elevate user experiences.
           </motion.p>
         </div>
-        <motion.div variants={imageVariants} className="mt-20 md:mt-5"> {/* Adjusted margin-top value */}
+        <motion.div variants={imageVariants} className="mt-20 md:mt-0"> {/* Adjusted margin-top value */}
           <img
             src={me}
             alt="my profile"
