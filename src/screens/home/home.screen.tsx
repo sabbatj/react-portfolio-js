@@ -14,7 +14,7 @@ const Home = () => {
 
   const imageVariants = {
     hidden: { opacity: 0, marginTop: 0 }, // Updated marginTop property
-    visible: { opacity: 1, marginTop: 40, transition: { duration: 0.5, delay: 0.4 } }, // Adjusted marginTop value
+    visible: { opacity: 1, marginTop: 50, transition: { duration: 0.5, delay: 0.4 } }, // Adjusted marginTop value
   };
 
   return (
