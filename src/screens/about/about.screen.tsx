@@ -9,14 +9,17 @@ const About = () => {
             </div>
             <div className="text-center">
               <p className="text-lg sm:text-3xl">
-              Experienced full-stack developer passionate about crafting exceptional user experiences. Skilled in creating innovative solutions and delivering top-notch results that exceed expectations. Firm believer in technology's potential as a catalyst for success. Driven to achieve thriving outcomes.
-        </p>
+                Experienced full-stack developer passionate about crafting exceptional user experiences. Skilled in creating innovative solutions and delivering top-notch results that exceed expectations. Firm believer in technology's potential as a catalyst for success. Driven to achieve thriving outcomes.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
-export default About;
 
+export default About;
 
 
 
