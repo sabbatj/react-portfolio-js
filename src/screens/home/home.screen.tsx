@@ -30,7 +30,7 @@ const Home = () => {
             A FULL STACK DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-2 px-2 max-w-md" variants={textVariants}>
-            I have experience in web development. Equipped with a diverse range of programming languages, frameworks, and tools, I'am adept at seamlessly bridging the gap between user experience and server functionality. 
+            Experienced developer skilled in diverse programming languages, frameworks, and tools. Seamless integration of user experience and server functionality
           </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-8 md:mt-0"> {/* Adjusted margin-top value */}
