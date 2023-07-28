@@ -46,22 +46,23 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="text-left md:text-center text-gray-500 text-sm mt-4 md:mt-0">
-  <div>© COPYRIGHT 2023. ALL RIGHTS RESERVED</div>
-  <div className="flex items-center justify-center md:justify-start text-right">
-     <div className="ml-2 md:ml-1">WEBSITE DESIGN BY</div>
-        <a
-         href="https://www.linkedin.com/in/juandre-sabbat-14b755237/"
-         target="_blank"
-          rel="noopener noreferrer"
-            className="text-yellow-500 ml-2 md:ml-0 hover:underline"
-           >
-          JUANDRE
-          </a>
-      </div>
-       </div>
+        <div className="text-left md:text-center text-gray-500 text-sm mt-4 md:mt-0 ml-2 md:ml-0">
+          <div>© COPYRIGHT 2023. ALL RIGHTS RESERVED</div>
+          <div className="flex items-center justify-center md:justify-start">
+            <div>WEBSITE DESIGN BY</div>
+            <a
+              href="https://www.linkedin.com/in/juandre-sabbat-14b755237/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-500 ml-2 md:ml-0 hover:underline"
+            >
+              JUANDRE SABBAT
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
   );
 };
+
 export default Footer;
