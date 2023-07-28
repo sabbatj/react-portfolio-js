@@ -15,11 +15,11 @@ const Navbar = () => {
   };
 
   const [navLinks, setNavLinks] = useState([
-    { id: 'home', name: 'Home', className: '' },
-    { id: 'about', name: 'About', className: '' },
-    { id: 'skills', name: 'Skills', className: '' },
-    { id: 'work', name: 'Work', className: '' },
-    { id: 'contact', name: 'Contact', className: '' },
+    { id: 'home', name: 'HOME', className: '' },
+    { id: 'about', name: 'ABOUT', className: '' },
+    { id: 'skills', name: 'SKILLS', className: '' },
+    { id: 'work', name: 'WORK', className: '' },
+    { id: 'contact', name: 'CONTACT', className: '' },
   ]);
 
   const handleSetActive = (to: string) => {
