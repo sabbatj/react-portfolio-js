@@ -56,7 +56,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-yellow-500 ml-2 hover:underline text-right"
             >
-              Juandre
+             JUANDRE
             </a>
           </div>
         </div>
