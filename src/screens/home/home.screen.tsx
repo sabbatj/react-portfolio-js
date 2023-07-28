@@ -13,8 +13,8 @@ const Home = () => {
   };
 
   const imageVariants = {
-    hidden: { opacity: 0, marginTop: 0 }, // Updated marginTop property
-    visible: { opacity: 1, marginTop: 50, transition: { duration: 0.5, delay: 0.4 } }, // Adjusted marginTop value
+    hidden: { opacity: 0, marginTop: 0 },
+    visible: { opacity: 1, marginTop: 50, transition: { duration: 0.5, delay: 0.4 } },
   };
 
   return (
@@ -30,10 +30,10 @@ const Home = () => {
             A FULL STACK DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-          Versatile full-stack developer, combining technical prowess and creativity to deliver impactful solutions and elevate user experiences.
+            VERSATILE FULL-STACK DEVELOPER, COMBINING TECHNICAL PROWESS AND CREATIVITY TO DELIVER IMPACTFUL SOLUTIONS AND ELEVATE USER EXPERIENCES.
           </motion.p>
         </div>
-        <motion.div variants={imageVariants} className="mt-20 md:mt-0"> {/* Adjusted margin-top value */}
+        <motion.div variants={imageVariants} className="mt-20 md:mt-0">
           <img
             src={me}
             alt="my profile"
@@ -46,4 +46,3 @@ const Home = () => {
 };
 
 export default Home;
-
