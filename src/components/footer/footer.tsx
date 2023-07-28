@@ -46,7 +46,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="text-left md:text-center text-gray-500 text-sm mt-4 md:mt-0 ml-2 md:ml-0">
+        <div className="text-left md:text-center text-gray-500 text-sm mt-4 md:mt-0 ml-4 md:ml-0">
           <div>© COPYRIGHT 2023. ALL RIGHTS RESERVED</div>
           <div className="flex items-center justify-center md:justify-start">
             <div>WEBSITE DESIGN BY</div>
@@ -56,7 +56,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="text-yellow-500 ml-2 md:ml-0 hover:underline"
             >
-              JUANDRE SABBAT
+              JUANDRE
             </a>
           </div>
         </div>
@@ -64,5 +64,4 @@ const Footer = () => {
     </footer>
   );
 };
-
 export default Footer;
