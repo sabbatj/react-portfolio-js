@@ -51,12 +51,12 @@ const Footer = () => {
           <div className="flex items-center justify-center md:justify-center text-right">
             <div>WEBSITE DESIGN BY</div>
             <a
-              href="https://www.xencode.co.za/home"
+              href="https://www.linkedin.com/in/juandre-sabbat-14b755237/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-yellow-500 ml-2 hover:underline text-right"
             >
-              XenCode
+              Juandre
             </a>
           </div>
         </div>
