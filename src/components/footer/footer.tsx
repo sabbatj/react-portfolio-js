@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="text-left md:text-center text-gray-500 text-sm mt-4 md:mt-0">
   <div>© COPYRIGHT 2023. ALL RIGHTS RESERVED</div>
   <div className="flex items-center justify-center md:justify-start text-right">
-     <div className="ml-2 md:ml-0">WEBSITE DESIGN BY</div>
+     <div className="ml-2 md:ml-1">WEBSITE DESIGN BY</div>
         <a
          href="https://www.linkedin.com/in/juandre-sabbat-14b755237/"
          target="_blank"
