@@ -33,15 +33,71 @@ const Work = () => {
               </div>
             </div>
           </div>
-          {/* Add 'grid-item' class to the following grid items */}
           <div className='aspect-w-1 aspect-h-1 grid-item'>
-            {/* Rest of the code remains the same */}
+            <div
+              style={{ backgroundImage: `url(${Code})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
+            >
+              <div className='flex justify-center items-center flex-col'>
+                <span className='text-lg font-bold text-white tracking-wider'>
+                  PORTFOLIO WEB APPLICATION
+                </span>
+                <p className='text-center'>
+                  A web application built with JAVASCRIPT, HTML, SCSS.
+                </p>
+                <div className='pt-8 text-center'>
+                  <a href='https://juandresabbatportfolio.vercel.app/' target='_blank' rel='noopener noreferrer'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Live
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <div className='aspect-w-1 aspect-h-1 grid-item'>
-            {/* Rest of the code remains the same */}
+            <div
+              style={{ backgroundImage: `url(${Code})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
+            >
+              <div className='flex justify-center items-center flex-col'>
+                <span className='text-lg font-bold text-white tracking-wider'>
+                  TINDOG WEB APPLICATION
+                </span>
+                <p className='text-center'>
+                  A web application built with JAVASCRIPT, HTML, CSS, BOOTSRAP.
+                </p>
+                <div className='pt-8 text-center'>
+                  <a href='https://bootstrap-tindog-website-5zsc3md03-juandresabbat92-gmailcom.vercel.app/' target='_blank' rel='noopener noreferrer'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Live
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
           <div className='aspect-w-1 aspect-h-1 grid-item'>
-            {/* Rest of the code remains the same */}
+            <div
+              style={{ backgroundImage: `url(${Code})` }}
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
+            >
+              <div className='flex justify-center items-center flex-col'>
+                <span className='text-lg font-bold text-white tracking-wider'>
+                  NGOS WEB APPLICATION
+                </span>
+                <p className='text-center'>
+                  A web application built with HTML, CSS.
+                </p>
+                <div className='pt-8 text-center'>
+                  <a href='https://ngos.co.za/' target='_blank' rel='noopener noreferrer'>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                      Live
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
