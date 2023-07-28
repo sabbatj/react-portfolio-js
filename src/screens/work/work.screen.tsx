@@ -11,10 +11,11 @@ const Work = () => {
           <p className='py-5 text-2xl md:py-0 text-center'>Innovative projects showcasing seamless user experiences and cutting-edge technology implementation</p>
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          <div className='aspect-w-1 aspect-h-1'>
+          {/* Add a CSS class 'grid-item' to the grid items */}
+          <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -33,10 +34,10 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='aspect-w-1 aspect-h-1'>
+          <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -55,10 +56,10 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='aspect-w-1 aspect-h-1'>
+          <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -77,10 +78,10 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='aspect-w-1 aspect-h-1'>
+          <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4'
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -104,4 +105,6 @@ const Work = () => {
     </div>
   );
 };
+
 export default Work;
+
