@@ -29,8 +29,8 @@ const Home = () => {
           <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
             A FULL STACK DEVELOPER
           </motion.h2>
-          <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-            Versatile full-stack developer, combining technical prowess and creativity to deliver impactful solutions and elevate user experiences.
+          <motion.p className="text-gray-500 py-5 px-5 max-w-md mx-auto" variants={textVariants}>
+          Versatile full-stack developer, combining technical prowess and creativity to deliver impactful solutions and elevate user experiences.
           </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0"> {/* Adjusted margin-top value */}
