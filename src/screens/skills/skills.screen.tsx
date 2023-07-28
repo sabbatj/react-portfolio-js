@@ -26,7 +26,7 @@ const Skills = () => {
             initial="hidden"
             animate="visible"
           >
-            Skills
+            SKILLS
           </motion.p>
           <motion.p
             className='py-5 text-2xl text-center'
