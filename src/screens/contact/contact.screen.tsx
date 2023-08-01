@@ -8,14 +8,11 @@ const Contact = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     if (!name || !email || !message) {
       setStatus('missingBlock');
       return;
     }
-
     setStatus('sending');
-
     // Send form data to your endpoint or Formspree
     // Replace 'YOUR_FORMSPREE_ENDPOINT' with your actual endpoint
     try {
@@ -30,7 +27,6 @@ const Contact = () => {
           message,
         }),
       });
-
       if (response.ok) {
         setStatus('success');
         setName('');
@@ -43,7 +39,6 @@ const Contact = () => {
       setStatus('error');
     }
   };
-
   return (
     <div className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
       <div className=' pt-12 flex flex-col max-w-[600px] w-full'>
