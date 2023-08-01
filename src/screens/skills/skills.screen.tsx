@@ -94,6 +94,10 @@ const Skills = () => {
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={softSkillVariants}>
             <p className='my-4'>TEAMWORK</p>
           </motion.div>
+          {/* Add one more soft skill */}
+          <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={softSkillVariants}>
+            <p className='my-4'>CREATIVITY</p>
+          </motion.div>
           {/* Add more soft skills as needed */}
         </motion.div>
       </div>
@@ -102,5 +106,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
