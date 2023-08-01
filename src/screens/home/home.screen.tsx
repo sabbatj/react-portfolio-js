@@ -6,17 +6,14 @@ const Home = () => {
     hidden: { opacity: 0, y: -100 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
-
   const textVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 0.5, delay: 0.2 } },
   };
-
   const imageVariants = {
     hidden: { opacity: 0, marginTop: 0 },
     visible: { opacity: 1, marginTop: 50, transition: { duration: 0.5, delay: 0.4 } },
   };
-
   return (
     <div data-name="home" className="h-screen w-full bg-[#0a192f]">
       <motion.div
@@ -44,5 +41,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
