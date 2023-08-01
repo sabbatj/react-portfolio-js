@@ -5,22 +5,18 @@ const Skills = () => {
     hidden: { opacity: 0, y: -100 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
-
   const textVariants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 0.5, delay: 0.2 } },
   };
-
   const skillVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
-
   const softSkillVariants = {
     hidden: { opacity: 0, y: 20 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
-
   return (
     <div data-name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -91,18 +87,9 @@ const Skills = () => {
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={softSkillVariants}>
             <p className='my-4'>PROBLEM-SOLVING</p>
           </motion.div>
-          <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={softSkillVariants}>
-            <p className='my-4'>TEAMWORK</p>
-          </motion.div>
-          {/* Add one more soft skill */}
-          <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={softSkillVariants}>
-            <p className='my-4'>CREATIVITY</p>
-          </motion.div>
-          {/* Add more soft skills as needed */}
         </motion.div>
       </div>
     </div>
   );
 };
-
 export default Skills;
