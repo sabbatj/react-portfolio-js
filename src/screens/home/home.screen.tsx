@@ -27,7 +27,7 @@ const Home = () => {
             A FULL STACK DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-            VERSATILE FULL-STACK DEVELOPER, COMBINING TECHNICAL PROWESS AND CREATIVITY TO DELIVER IMPACTFUL SOLUTIONS AND ELEVATE USER EXPERIENCES.
+            Versatile full-stack developer, combining technical prowess and creativity to deliver impactful solutions and elevate user experiences.
           </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0">
