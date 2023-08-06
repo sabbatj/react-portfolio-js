@@ -14,7 +14,7 @@ const Work = () => {
           <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full'
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -36,7 +36,7 @@ const Work = () => {
           <div className='aspect-w-1 aspect-h-1 grid-item'>
             <div
               style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
+              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full'
             >
               <div className='flex justify-center items-center flex-col'>
                 <span className='text-lg font-bold text-white tracking-wider'>
@@ -55,54 +55,12 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className='aspect-w-1 aspect-h-1 grid-item'>
-            <div
-              style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
-            >
-              <div className='flex justify-center items-center flex-col'>
-                <span className='text-lg font-bold text-white tracking-wider'>
-                  TINDOG WEB APPLICATION
-                </span>
-                <p className='text-center'>
-                  A web application built with JAVASCRIPT, HTML, CSS, BOOTSRAP.
-                </p>
-                <div className='pt-8 text-center'>
-                  <a href='https://bootstrap-tindog-website-5zsc3md03-juandresabbat92-gmailcom.vercel.app/' target='_blank' rel='noopener noreferrer'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Live
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='aspect-w-1 aspect-h-1 grid-item'>
-            <div
-              style={{ backgroundImage: `url(${Code})` }}
-              className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div p-4 h-full' // Add 'h-full' class here
-            >
-              <div className='flex justify-center items-center flex-col'>
-                <span className='text-lg font-bold text-white tracking-wider'>
-                  NGOS WEB APPLICATION
-                </span>
-                <p className='text-center'>
-                  A web application built with HTML, CSS.
-                </p>
-                <div className='pt-8 text-center'>
-                  <a href='https://ngos.co.za/' target='_blank' rel='noopener noreferrer'>
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                      Live
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* The TINDOG WEB APPLICATION section is removed */}
         </div>
       </div>
     </div>
   );
 };
+
 export default Work;
 
