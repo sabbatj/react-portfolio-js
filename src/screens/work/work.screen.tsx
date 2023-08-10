@@ -21,7 +21,7 @@ const Work = () => {
                   DJ FLAVA WEB APPLICATION
                 </span>
                 <p className='text-center'>
-                  A web application built with REACT, TYPSCRIPT, TAILWINDCSS, JAVASCRIPT.
+                  A web application built with REACT, TYPESCRIPT, TAILWINDCSS, JAVASCRIPT.
                 </p>
                 <div className='pt-8 text-center'>
                   <a href='https://www.djflava.org/home' target='_blank' rel='noopener noreferrer'>
