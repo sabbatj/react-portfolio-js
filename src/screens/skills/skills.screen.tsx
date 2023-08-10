@@ -56,7 +56,7 @@ const Skills = () => {
             <p className='my-4'>GITHUB</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>NODE JS</p>
+            <p className='my-4'>NODE JS </p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>MONGO DB</p>
@@ -68,7 +68,7 @@ const Skills = () => {
             <p className='my-4'>RUBY ON RAILS</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>POSTGRE-SQL</p>
+            <p className='my-4'>SQL</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>TYPESCRIPT</p>
