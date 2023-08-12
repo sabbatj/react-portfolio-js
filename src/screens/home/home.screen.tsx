@@ -24,10 +24,10 @@ const Home = () => {
       >
         <div className="text-center md:text-left">
           <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
-            A FULL STACK DEVELOPER
+            A SOFTWARE DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-           VERSATILE FULL-STACK DEVELOPER, COMBINING TECHNICAL PROWESS AND CREATIVITY TO DELIVER IMPACTFUL SOLUTIONS AND ELEVATE USER EXPERIENCES. 
+           VERSATILE SOFTWARE DEVELOPER, COMBINING TECHNICAL PROWESS AND CREATIVITY TO DELIVER IMPACTFUL SOLUTIONS AND ELEVATE USER EXPERIENCES. 
           </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0">
