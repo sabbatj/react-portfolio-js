@@ -26,7 +26,7 @@ const Home = () => {
           <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
             INNOVATIVE SOFTWARE DEVELOPER
           </motion.h2>
-          <motion.p className="text-gray-500 py-5 px-5 max-w-md ml-0 md:ml-auto" variants={textVariants}>
+          <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
             I'm a Cape Town-based software developer specializing in crafting exceptional applications, websites, and everything in between.
           </motion.p>
         </div>
