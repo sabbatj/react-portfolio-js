@@ -27,7 +27,6 @@ const Home = () => {
             INNOVATIVE SOFTWARE DEVELOPER
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-           VERSATILE SOFTWARE DEVELOPER, COMBINING TECHNICAL PROWESS AND CREATIVITY TO DELIVER IMPACTFUL SOLUTIONS AND ELEVATE USER EXPERIENCES. 
           </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0">
