@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className="text-center">
               <p className="text-lg sm:text-3xl">
-                Experienced full-stack developer with a passion for exceptional user experiences and effective solutions. notable track record in delivering impactful projects, driven by a user-centric vision. thrives in teamwork and constantly enhances skills through continuous learning.
+                Experienced software developer with a passion for exceptional user experiences and effective solutions. notable track record in delivering impactful projects, driven by a user-centric vision. thrives in teamwork and constantly enhances skills through continuous learning.
               </p>
             </div>
           </div>
