@@ -44,13 +44,13 @@ const Skills = () => {
             <p className='my-4'>HTML CSS</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>TAILWINDCSS REACT</p>
+            <p className='my-4'>TAILWINDCSS</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>JAVASCRIPT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>DOTNET FRAMEWORK </p>
+            <p className='my-4'>REACT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>GITHUB GITLAB</p>
@@ -74,7 +74,7 @@ const Skills = () => {
             <p className='my-4'>TYPESCRIPT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>CSHARP</p>
+            <p className='my-4'>GITLAB</p>
           </motion.div>
         </motion.div>
       </div>
