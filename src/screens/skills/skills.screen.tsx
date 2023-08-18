@@ -44,13 +44,13 @@ const Skills = () => {
             <p className='my-4'>HTML CSS</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>TAILWINDCSS</p>
+            <p className='my-4'>TAILWINDCSS REACT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>JAVASCRIPT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>REACT    DOTNET FRAMEWORK </p>
+            <p className='my-4'>DOTNET FRAMEWORK </p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>GITHUB GITLAB</p>
