@@ -50,7 +50,7 @@ const Skills = () => {
             <p className='my-4'>JAVASCRIPT</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>REACT</p>
+            <p className='my-4'>REACT .NET FRAMEWORK </p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>GITHUB GITLAB</p>
@@ -59,7 +59,7 @@ const Skills = () => {
             <p className='my-4'>NODE JS </p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
-            <p className='my-4'>MONGO DB</p>
+            <p className='my-4'>MONGO-DB POSTGRES-SQL</p>
           </motion.div>
           <motion.div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500' variants={skillVariants}>
             <p className='my-4'>API's</p>
