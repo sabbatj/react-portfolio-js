@@ -24,11 +24,11 @@ const Home = () => {
       >
         <div className="text-center md:text-left">
           <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
-            INNOVATIVE SOFTWARE DEVELOPER
+            Hi, my name is
+            JUANDRE SABBAT
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-            I'm a Cape Town-based software developer specializing in crafting exceptional applications, websites, and everything in between.
-          </motion.p>
+          I'm an innovative software developer based in Cape Town, specializing in crafting exceptional applications, websites, and everything in between. With a passion for pushing boundaries and staying at the forefront of technology, I'm dedicated to delivering unique and forward-thinking solutions
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0">
           <img
