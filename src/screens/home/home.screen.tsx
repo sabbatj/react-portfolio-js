@@ -14,6 +14,7 @@ const Home = () => {
     hidden: { opacity: 0, marginTop: 0 },
     visible: { opacity: 1, marginTop: 50, transition: { duration: 0.5, delay: 0.4 } },
   };
+  
   return (
     <div data-name="home" className="h-screen w-full bg-[#0a192f]">
       <motion.div
@@ -24,11 +25,11 @@ const Home = () => {
       >
         <div className="text-center md:text-left">
           <motion.h2 className="text-4xl pt-20 pb-5 sm:text-7xl font-bold text-white" variants={textVariants}>
-            Hi, my name is
-            JUANDRE SABBAT
+            Hi, I'm JUANDRE SABBAT
           </motion.h2>
           <motion.p className="text-gray-500 py-5 px-5 max-w-md" variants={textVariants}>
-          I'm an innovative software developer based in Cape Town, specializing in crafting exceptional applications, websites, and everything in between. With a passion for pushing boundaries and staying at the forefront of technology, I'm dedicated to delivering unique and forward-thinking solutions
+            Innovative software developer from Cape Town, crafting exceptional digital solutions at the cutting edge of technology.
+          </motion.p>
         </div>
         <motion.div variants={imageVariants} className="mt-20 md:mt-0">
           <img
@@ -41,4 +42,6 @@ const Home = () => {
     </div>
   );
 };
+
 export default Home;
+
